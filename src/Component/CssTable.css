@@ -1,0 +1,51 @@
+.App {
+	display: flex;
+	flex-direction: column;
+	/* justify-content: center; */
+	/* align-items: center; */
+}
+
+table {
+	border: 3px solid red;
+	width: 800px;
+	height: 200px;
+}
+
+th {
+	border-bottom: 1px solid black;
+}
+
+td {
+	text-align: center;
+}
+.Btn {
+	width: 60px;
+	height: 25px;
+  border: 2px solid red;
+}
+.BtnC {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	background-color: "gray";
+  margin: 3px;
+}
+.BtnC1 {
+	display: flex;
+	align-items: center;
+  margin: 3px;
+	background-color: #242526;
+}
+.Alrinp{
+  padding: 10px;
+  background-color: #fff;
+}
+.ModalStyle{
+  display: flex;
+  flex: 1;
+  align-self: center;
+ /* margin-left: 600px; */
+  width: 100px;
+	height: 100px;
+  background-color: gray;
+}
